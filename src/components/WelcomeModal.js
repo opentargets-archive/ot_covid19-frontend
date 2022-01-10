@@ -161,11 +161,13 @@ function UpdatingModal({ open, onClose, updating, showControls }) {
                 The Open Targets COVID-19 Target Prioritisation Tool will be deprecated and archived in February 2022.
                 Please read {' '}
               <Link
+                target="blank"
                 href="https://community.opentargets.org/t/open-targets-covid-19-target-prioritisation-tool-deprecation-and-archive-notice/430"
               >
                 our latest Community post
               </Link> for more details or visit the Open Targets Platform {' '}
               <Link
+                target="blank"
                 href="https://platform.opentargets.org/disease/MONDO_0100096/associations"
               >
                 COVID-19 association page
@@ -176,9 +178,8 @@ function UpdatingModal({ open, onClose, updating, showControls }) {
                 proteins as potential drug targets for COVID-19 treatment. Key
                 datasets from publicly available resources are parsed and
                 integrated together in order to inform therapeutic hypothesis
-                generation via a simple user interface.
+                generation.
               </Typography>
-
               <Divider variant="middle" className={classes.divider} />
             </Box>
 
