@@ -155,7 +155,23 @@ function UpdatingModal({ open, onClose, updating, showControls }) {
           <Box className={classes.paper}>
             <Box className={classes.titleContainer}>
               <Logo className={classes.modalLogo} height="64px" />
-              <Typography align="center">
+              <Typography align="center" style={{ fontWeight: 600}}>
+                * Important Note *
+                <br/> 
+                The Open Targets COVID-19 Target Prioritisation Tool will be deprecated and archived in February 2022.
+                Please read {' '}
+              <Link
+                href="https://community.opentargets.org/t/open-targets-covid-19-target-prioritisation-tool-deprecation-and-archive-notice/430"
+              >
+                our latest Community post
+              </Link> for more details or visit the Open Targets Platform {' '}
+              <Link
+                href="https://platform.opentargets.org/disease/MONDO_0100096/associations"
+              >
+                COVID-19 association page
+              </Link> for an updated list of drug targets.
+              </Typography>
+              <Typography align="center" style={{ marginTop: 30 }}>
                 This tool aids filtering and prioritisation of human and viral
                 proteins as potential drug targets for COVID-19 treatment. Key
                 datasets from publicly available resources are parsed and
